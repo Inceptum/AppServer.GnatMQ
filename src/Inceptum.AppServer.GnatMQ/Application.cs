@@ -13,8 +13,8 @@ namespace Inceptum.Applications.GnatMQ
 
         public Application(ILogger logger, MqttBroker mqttBroker)
         {
-            if (logger == null) throw new ArgumentNullException(nameof(logger));
-            if (mqttBroker == null) throw new ArgumentNullException(nameof(mqttBroker));
+            if (logger == null) throw new ArgumentNullException("logger");
+            if (mqttBroker == null) throw new ArgumentNullException("mqttBroker");
             m_Logger = logger;
             m_MqttBroker = mqttBroker;
         }
