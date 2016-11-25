@@ -7,8 +7,8 @@
     <ProjectGuid>{79393CE0-740D-4142-B69D-1EC14702521C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Inceptum.Applications.GnatMQ</RootNamespace>
-    <AssemblyName>Inceptum.Applications.GnatMQ</AssemblyName>
+    <RootNamespace>Inceptum.AppServer.GnatMQ</RootNamespace>
+    <AssemblyName>Inceptum.AppServer.GnatMQ</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

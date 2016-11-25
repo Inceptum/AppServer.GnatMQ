@@ -1,10 +1,8 @@
 ﻿using System;
 using Castle.Core.Logging;
-using Inceptum.AppServer;
 using uPLibrary.Networking.M2Mqtt;
 
-
-namespace Inceptum.Applications.GnatMQ
+namespace Inceptum.AppServer.GnatMQ
 {
     public class Application : IHostedApplication, IDisposable
     {

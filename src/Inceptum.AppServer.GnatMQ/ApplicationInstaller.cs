@@ -4,7 +4,7 @@ using Castle.Windsor;
 using Inceptum.AppServer.Configuration;
 using uPLibrary.Networking.M2Mqtt;
 
-namespace Inceptum.Applications.GnatMQ
+namespace Inceptum.AppServer.GnatMQ
 {
     public class ApplicationInstaller : IWindsorInstaller
     {
